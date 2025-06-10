@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <meta
+      name="description"
+      content="    The company culture is very creative and encourages employees to think outside the box. They also offer a lot of opportunities for learning and development."
+    />
+    <title>Contact Us</title>
+    <!-- Importing Components -->
+    <script src="./layouts/footer.js"></script>
+    <script src="./layouts/header.js"></script>
+    <script src="./layouts/dropdowns.js"></script>
+    <script src="./layouts/sidebar.js"></script>
+  </head>
+  <body class="bg-white text-black">
+    <!-- ! header -->
+    <header-component></header-component>
+    <!-- ! All Dropdowns -->
+    <dropdowns-component></dropdowns-component>
+    <!-- ! Sidebar -->
+    <sidebar-component></sidebar-component>
+    <!-- !main -->
+    <main class="bg-slate text-black">
+      <!-- ! Hero section -->
+      <section
+        class="padding grid gap-6 pb-10 pt-28 sm:pb-12 sm:pt-36 xl:pb-12 xl:pt-56 2xl:pt-60"
+      >
+        <!-- ? title -->
+        <h1 class="subHeading">
+          <div class="text-red">Contact</div>
+          <div>Get in touch with us</div>
+        </h1>
+        <!-- ? Empowering and learn more section -->
+        <section
+          class="grid gap-3 text-xs font-semibold lg:flex lg:gap-6 lg:leading-[1.83] lg:tracking-[2px]"
+        >
+          <!-- first one -->
+          <h2
+            class="border-t-[1px] border-[#1A05161A] px-1 py-2 uppercase lg:w-full lg:px-4 lg:py-[21px]"
+          >
+            Use the form below to learn how we can help you and your business to
+            build and maintain a better tomorrow.
+          </h2>
+          <!-- second one -->
+          <a
+            href="#formSection"
+            class="group grid grid-flow-col items-center justify-between gap-6 border-t-[1px] border-[#1A05161A] px-1 py-2 uppercase lg:w-[400px] lg:px-4 lg:py-[21px]"
+          >
+            Enquiry Form
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 rotate-90 rounded-full bg-red p-1 duration-300 group-hover:-mb-1"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="#ffffff"
+                d="M16.175 13H4v-2h12.175l-5.6-5.6L12 4l8 8l-8 8l-1.425-1.4z"
+              />
+            </svg>
+          </a>
+        </section>
+      </section>
+      <!-- ! Hero Image -->
+      <img
+        src="./images/contactUsHero.webp"
+        class="padding w-full"
+        alt="contact us Hero Image"
+      />
+      <!-- ! Form  Section -->
+      <!-- id given for hero section click to come to bottom -->
+      <section
+        id="formSection"
+        class="padding -mt-20 grid pb-10 pt-32 sm:grid-cols-2 xl:-mt-20 xl:pb-[120px] xl:pt-40"
+      >
+        <!-- ? (1) title -->
+        <h2
+          class="order-1 border-b-[1px] border-[#1a05161a] pb-3 text-xs font-semibold uppercase sm:order-none sm:col-span-2 xl:pb-5"
+        >
+          Give us a few details about yourself and describe your inquiry. We
+          will get back to you as soon as possible.
+        </h2>
+        <!-- ? (2) address section  -->
+        <section
+          class="order-3 grid gap-10 py-6 sm:order-none sm:auto-rows-min lg:text-xl xl:gap-16 xl:py-10"
+        >
+          <!-- (1) General Details -->
+          <section>
+            <h3
+              class="mb-3 text-xs font-semibold uppercase text-[#877c88] xl:mb-6"
+            >
+              Reach out to us
+            </h3>
+            <ul class="grid gap-2 xl:gap-4">
+              <li class="font-medium md:font-semibold">
+                Life9 Systems Pvt. Ltd.
+              </li>
+              <li>
+                No. 34, MCHS Layout, Jakkur Main Road, Jakkur
+                <br class="hidden sm:block" />
+                Bengaluru - 560 064, Karnataka, India
+              </li>
+              <li><a href="tel:+91 98443 56987">+91 98443 56987</a></li>
+              <li>  <a
+                href="mailto:support@life9sys.com"
+                class="underline underline-offset-8"
+                >support@life9sys.com</a
+              ></li>
+              <li class="group text-xs font-semibold uppercase text-red mt-2">
+                <a
+                  target="_blank"
+                  href="https://maps.app.goo.gl/hcVn6VJd2v9QY8Fn6"
+                  >view map
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="mb-[2px] inline w-5 rotate-180 fill-red stroke-red stroke-[.5px] duration-300 group-hover:ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9.904 17.308L4.596 12l5.308-5.308l.708.72L6.523 11.5h12.88v1H6.524l4.089 4.088z"
+                    /></svg
+                ></a>
+              </li>
+            </ul>
+          </section>
+        
+          <!-- (3) careers -->
+          <section>
+            <h3
+              class="mb-2 text-xs font-semibold uppercase text-[#877c88] xl:mb-6"
+            >
+              career
+            </h3>
+            <p>
+              For work opportunities and internships.
+              <br class="hidden sm:block" />
+              Go to our
+              <a href="./careers.html" class="underline underline-offset-[4px]"
+                >Career page.</a
+              >
+            </p>
+          </section>
+        </section>
+        <!-- ? (3) Form -->
+        <form
+          action=""
+          name="form"
+          id="form"
+          novalidate
+          class="order-2 grid py-6 sm:order-none xl:py-10"
+        >
+          <label for="name" id="nameLabel" class="text-xs">Name*</label>
+          <input
+            type="text"
+            name="name"
+            required
+            id="name"
+            placeholder="Please enter your name"
+            class="mb-10 border-b-[1px] border-black bg-inherit py-2 placeholder-[#877c88] outline-none focus:border-b-2"
+          />
+          <label for="email" id="emailLabel" class="text-xs">E-mail*</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="eg. surya.kiran@life9sys.com"
+            class="mb-10 border-b-[1px] border-black bg-inherit py-2 placeholder-[#877c88] outline-none focus:border-b-2"
+          />
+          <label for="number" id="numberLabel" class="text-xs"
+            >Phone Number*</label
+          >
+          <input
+            type="tel"
+            name="number"
+            id="number"
+            required
+            placeholder="Enter your phone number"
+            class="mb-10 border-b-[1px] border-black bg-inherit py-2 placeholder-[#877c88] outline-none focus:border-b-2"
+          />
+          <label for="company" class="text-xs">Company</label>
+          <input
+            type="text"
+            name="company"
+            id="company"
+            placeholder="eg. Service Provider"
+            class="mb-10 border-b-[1px] border-black bg-inherit py-2 placeholder-[#877c88] outline-none focus:border-b-2"
+          />
+          <label for="country" id="countryLabel" class="text-xs">Country</label>
+          <input
+            type="text"
+            name="country"
+            id="country"
+            placeholder="eg. India"
+            class="mb-10 border-b-[1px] border-black bg-inherit py-2 placeholder-[#877c88] outline-none focus:border-b-2"
+          />
+          <label for="message" class="text-xs">Your Message</label>
+          <input
+            type="text"
+            name="message"
+            id="message"
+            placeholder="How can we help you?"
+            class="mb-10 border-b-[1px] border-black bg-inherit py-2 placeholder-[#877c88] outline-none focus:border-b-2"
+          />
+          <input
+            type="submit"
+            value="Submit form"
+            class="w-fit cursor-pointer rounded-full bg-red px-5 py-3 text-sm font-medium text-white duration-300 hover:bg-white hover:text-red sm:font-semibold sm:tracking-wide"
+          />
+        </form>
+      </section>
+    </main>
+    <!-- ! footer -->
+    <footer-component></footer-component>
+    <!-- !script -->
+    <!-- For Dropdowns -->
+    <script src="./javascript/dropdown.js"></script>
+    <!-- For Header -->
+    <script src="./javascript/header.js"></script>
+    <!-- form validation -->
+    <script src="./javascript/formValidation.js"></script>
+    <!-- sidebar -->
+    <script src="./javascript/sidebar.js"></script>
+  </body>
+</html>

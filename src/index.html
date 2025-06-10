@@ -1,0 +1,1020 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life9System</title>
+    <meta
+      name="description"
+      content="Life9Systems Homepage, we empowering innovation with ai powered iot solutions and product engineering"
+    />
+    <!-- linking to css -->
+    <link href="./output.css" rel="stylesheet" />
+    <!-- Importing Components -->
+    <script src="./layouts/footer.js"></script>
+    <script src="./layouts/header.js"></script>
+    <script src="./layouts/dropdowns.js"></script>
+    <script src="./layouts/sidebar.js"></script>
+
+    <!-- Swiper js swiper style sheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="bg-white text-black">
+    <!-- ! header -->
+    <header-component></header-component>
+    <!-- ! All Dropdowns -->
+    <dropdowns-component></dropdowns-component>
+    <!-- ! Sidebar -->
+    <sidebar-component></sidebar-component>
+    <!-- ! main -->
+    <main class="">
+      <!-- ! Hero section -->
+      <section
+        class="heroImage padding grid h-[100svh] place-items-end bg-cover bg-center pb-2 text-white lg:pb-[16px]"
+      >
+        <!-- content inside of main hero section -->
+        <section
+          class="relative z-20 grid w-full gap-8 py-2 md:py-20 lg:gap-[24px] lg:py-0"
+        >
+          <!-- ? Large Texts -->
+          <section class="grid gap-1">
+            <!-- arrowed sentence -->
+            <span
+              class="flex items-center gap-2 text-xl md:text-2xl lg:text-[40px] lg:leading-[1.2]"
+              >Ignite, Innovate, Integrate
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-7 rotate-180 lg:w-10"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#ffffff"
+                  d="M9.904 17.308L4.596 12l5.308-5.308l.708.72L6.523 11.5h12.88v1H6.524l4.089 4.088z"
+                /></svg
+            ></span>
+            <!-- Page first H1 -->
+            <h1 class="heroHeading">
+              <div class=" ">
+                Pioneering the future
+                <span class="sm:hidden">of IoT with AI brilliance!</span>
+              </div>
+              <div class="hidden text-right sm:block">
+                of IoT with AI brilliance!
+              </div>
+            </h1>
+          </section>
+
+          <!-- ? Empowering and learn more section -->
+          <section
+            class="grid gap-3 text-xs font-semibold lg:flex lg:gap-6 lg:leading-[1.83] lg:tracking-[2px]"
+          >
+            <!-- first one -->
+            <h2
+              class="border-t-[1px] border-[#ffffff33] px-1 py-2 uppercase lg:w-full lg:px-4 lg:py-[21px]"
+            >
+              Empowering Innovation with AI-POWERED IoT Solutions & Product
+              Engineering. Your Partner for Cutting-Edge Technology.
+            </h2>
+            <!-- second one -->
+            <a
+              href="./about.html"
+              class="group grid grid-flow-col items-center justify-between gap-6 border-t-[1px] border-[#ffffff33] px-1 py-2 uppercase lg:w-[400px] lg:px-4 lg:py-[21px]"
+            >
+              Learn About life9 systems
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 rounded-full bg-red fill-white p-1 duration-300 group-hover:-mr-1 2xl:group-hover:-mr-2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.175 13H4v-2h12.175l-5.6-5.6L12 4l8 8l-8 8l-1.425-1.4z"
+                />
+              </svg>
+            </a>
+          </section>
+        </section>
+      </section>
+      <!-- ! Blogs -->
+      <section class="padding pb-12 pt-6 lg:pb-[120px] lg:pt-[80px]">
+        <!-- ? custom cursor -->
+        <div
+          id="cursor"
+          class="custom-div pointer-events-none absolute z-10 hidden h-[120px] w-[120px] select-none grid-flow-col items-center justify-center gap-x-1 rounded-full bg-red text-xs font-semibold uppercase text-white duration-75 lg:hidden"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-4 rotate-180"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#ffffff"
+              d="M16.175 13H4v-2h12.175l-5.6-5.6L12 4l8 8l-8 8l-1.425-1.4z"
+            />
+          </svg>
+          drag
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-4"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#ffffff"
+              d="M16.175 13H4v-2h12.175l-5.6-5.6L12 4l8 8l-8 8l-1.425-1.4z"
+            />
+          </svg>
+        </div>
+        <div
+          class="border-b-[1px] border-[#1A05161A] py-2 text-xs font-medium tracking-[2px] lg:font-semibold lg:leading-[22px]"
+        >
+          OUR SOLUTIONS
+        </div>
+        <h2 class="subHeading mt-3 lg:mt-[40px]">
+          <span class="text-red">
+            Life9sys IoT platform uses a service-oriented</span
+          >
+          <br class="hidden md:block" />
+          architecture framework and is widely used across various industries.
+        </h2>
+        <!-- ? blogs container -->
+        <div
+          class="swiper-container grid overflow-hidden border-b-[1px] border-[#1A05161A]"
+        >
+          <section id="blogs" class="swiper-wrapper mt-6 md:mt-8 lg:mt-[120px]">
+            <!-- 1 -->
+            <section
+              class="swiper-slide group grid cursor-pointer auto-rows-min gap-3 px-3 pb-2 lg:gap-6"
+            >
+              <!-- image container -->
+              <img
+                id="post1"
+                src="./images/fertilizer.webp"
+                class="hideCursor w-full duration-200 group-hover:opacity-90 group-hover:outline group-hover:outline-[1px] group-hover:outline-red"
+                draggable="false"
+                alt="agriculture"
+              />
+
+              <section class="grid auto-rows-min gap-1">
+                <h3 class="text-lg">Agriculture</h3>
+                <p class="text-sm">
+                  This increases the quantity and quality of agricultural
+                  products by soil scanning, measuring various parameters.
+                </p>
+              </section>
+              <div
+                class="grid grid-flow-col items-center justify-start overflow-hidden"
+              >
+                <div
+                  class="-ml-[5rem] text-xs font-medium uppercase tracking-wide text-red duration-300 group-hover:ml-0 md:font-semibold"
+                >
+                  know more
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-7 rotate-180 fill-red md:stroke-red md:stroke-[.6px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.904 17.308L4.596 12l5.308-5.308l.708.72L6.523 11.5h12.88v1H6.524l4.089 4.088z"
+                  />
+                </svg>
+              </div>
+            </section>
+            <!-- 2 -->
+            <section
+              class="swiper-slide group grid cursor-pointer auto-rows-min gap-3 border-l-[1px] border-[#1A05161A] px-3 lg:gap-6"
+            >
+              <img
+                id="post2"
+                src="./images/cows.webp"
+                class="hideCursor w-full duration-200 group-hover:opacity-90 group-hover:outline group-hover:outline-[1px] group-hover:outline-red"
+                draggable="false"
+                alt="cows"
+              />
+
+              <section class="grid auto-rows-min gap-1">
+                <h3 class="text-lg">Dairy Farming</h3>
+                <p class="text-sm">
+                  A sensor module which supports modularity, a smart aeration
+                  system for controlling the pond environment.
+                </p>
+              </section>
+              <div
+                class="grid grid-flow-col items-center justify-start overflow-hidden"
+              >
+                <div
+                  class="-ml-[5rem] text-xs font-medium uppercase tracking-wide text-red duration-300 group-hover:ml-0 md:font-semibold"
+                >
+                  know more
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-7 rotate-180 fill-red md:stroke-red md:stroke-[.6px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.904 17.308L4.596 12l5.308-5.308l.708.72L6.523 11.5h12.88v1H6.524l4.089 4.088z"
+                  />
+                </svg>
+              </div>
+            </section>
+            <!-- 3 -->
+            <section
+              class="swiper-slide group grid cursor-pointer auto-rows-min gap-3 border-l-[1px] border-[#1A05161A] px-3 lg:gap-6"
+            >
+              <img
+                id="post3"
+                src="./images/windfarm.webp"
+                class="hideCursor w-full duration-200 group-hover:opacity-90 group-hover:outline group-hover:outline-[1px] group-hover:outline-red"
+                draggable="false"
+                alt="wind farm"
+              />
+
+              <section class="grid gap-1">
+                <h3 class="text-lg">Energy (EV)</h3>
+                <p class="text-sm">
+                  Built for Telecommunication Service Providers with an IoT
+                  infrastructure.
+                </p>
+              </section>
+              <div
+                class="grid grid-flow-col items-center justify-start overflow-hidden"
+              >
+                <div
+                  class="-ml-[5rem] text-xs font-medium uppercase tracking-wide text-red duration-300 group-hover:ml-0 md:font-semibold"
+                >
+                  know more
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-7 rotate-180 fill-red md:stroke-red md:stroke-[.6px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.904 17.308L4.596 12l5.308-5.308l.708.72L6.523 11.5h12.88v1H6.524l4.089 4.088z"
+                  />
+                </svg>
+              </div>
+            </section>
+            <!-- 4 -->
+            <section
+              class="swiper-slide group grid cursor-pointer auto-rows-min gap-3 border-l-[1px] border-[#1A05161A] px-3 lg:gap-6"
+            >
+              <img
+                id="post4"
+                src="./images/fertilizer.webp"
+                class="hideCursor w-full duration-200 group-hover:opacity-90 group-hover:outline group-hover:outline-[1px] group-hover:outline-red"
+                draggable="false"
+                alt="wind farm"
+              />
+
+              <section class="grid auto-rows-min gap-1">
+                <h3 class="text-lg">Agriculture</h3>
+                <p class="text-sm">
+                  This increases the quantity and quality of agricultural
+                  products by soil scanning, measuring various parameters.
+                </p>
+              </section>
+              <div
+                class="grid grid-flow-col items-center justify-start overflow-hidden"
+              >
+                <div
+                  class="-ml-[5rem] text-xs font-medium uppercase tracking-wide text-red duration-300 group-hover:ml-0 md:font-semibold"
+                >
+                  know more
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-7 rotate-180 fill-red md:stroke-red md:stroke-[.6px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.904 17.308L4.596 12l5.308-5.308l.708.72L6.523 11.5h12.88v1H6.524l4.089 4.088z"
+                  />
+                </svg>
+              </div>
+            </section>
+            <!-- 5 -->
+            <section
+              class="swiper-slide group grid cursor-pointer auto-rows-min gap-3 border-l-[1px] border-[#1A05161A] px-3 lg:gap-6"
+            >
+              <img
+                id="post5"
+                src="./images/cows.webp"
+                class="hideCursor w-full duration-200 group-hover:opacity-90 group-hover:outline group-hover:outline-[1px] group-hover:outline-red"
+                draggable="false"
+                alt="wind farm"
+              />
+
+              <section class="grid auto-rows-min gap-1">
+                <h3 class="text-lg">Dairy Farming</h3>
+                <p class="text-sm">
+                  A sensor module which supports modularity, a smart aeration
+                  system for controlling the pond environment.
+                </p>
+              </section>
+              <div
+                class="grid grid-flow-col items-center justify-start overflow-hidden"
+              >
+                <div
+                  class="-ml-[5rem] text-xs font-medium uppercase tracking-wide text-red duration-300 group-hover:ml-0 md:font-semibold"
+                >
+                  know more
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-7 rotate-180 fill-red md:stroke-red md:stroke-[.6px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.904 17.308L4.596 12l5.308-5.308l.708.72L6.523 11.5h12.88v1H6.524l4.089 4.088z"
+                  />
+                </svg>
+              </div>
+            </section>
+            <!-- 6 -->
+            <section
+              class="swiper-slide group grid cursor-pointer auto-rows-min gap-3 border-l-[1px] border-[#1A05161A] px-3 sm:border-r-0 lg:gap-6"
+            >
+              <img
+                id="post6"
+                src="./images/windfarm.webp"
+                class="hideCursor w-full duration-200 group-hover:opacity-90 group-hover:outline group-hover:outline-[1px] group-hover:outline-red"
+                draggable="false"
+                alt="wind farm"
+              />
+
+              <section class="grid auto-rows-min gap-1">
+                <h3 class="text-lg">Energy (EV)</h3>
+                <p class="text-sm">
+                  Built for Telecommunication Service Providers with an IoT
+                  infrastructure.
+                </p>
+              </section>
+              <div
+                class="grid grid-flow-col items-center justify-start overflow-hidden"
+              >
+                <div
+                  class="-ml-[5rem] text-xs font-medium uppercase tracking-wide text-red duration-300 group-hover:ml-0 md:font-semibold"
+                >
+                  know more
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-7 rotate-180 fill-red md:stroke-red md:stroke-[.6px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.904 17.308L4.596 12l5.308-5.308l.708.72L6.523 11.5h12.88v1H6.524l4.089 4.088z"
+                  />
+                </svg>
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+      <!-- ! why us --  -->
+      <section class="padding bg-rose pb-12 pt-6 lg:pb-[120px] lg:pt-[80px]">
+        <div
+          class="border-b-[1px] border-[#1A05161A] py-2 text-xs font-medium lg:font-semibold lg:leading-[1.83] lg:tracking-[2px]"
+        >
+          WHY YOU'LL LOVE LIFE9 SYSTEMS
+        </div>
+        <!-- ?Container of all benefits -->
+        <section
+          class="grid gap-10 py-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6 lg:pt-[120px]"
+        >
+          <!-- 1 -->
+          <section class="grid gap-4 lg:auto-rows-min lg:gap-6">
+            <svg
+              class="ml-2 w-14 lg:w-16"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M51.3335 62V56.6667L60.8308 44.8C61.5879 43.854 62.0003 42.6784 62.0002 41.4667V26C62.0002 24.9392 61.5787 23.9217 60.8286 23.1716C60.0784 22.4215 59.061 22 58.0002 22C56.9394 22 55.9219 22.4215 55.1718 23.1716C54.4216 23.9217 54.0002 24.9392 54.0002 26V35.3333"
+                stroke="#1A0516"
+                stroke-width="2"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M38 62V48.2093C38 47.5088 38.138 46.815 38.4061 46.1678C38.6743 45.5206 39.0672 44.9326 39.5627 44.4373L48.6667 35.3333C49.0168 34.983 49.4325 34.7052 49.8901 34.5156C50.3476 34.3261 50.838 34.2285 51.3333 34.2285C51.8287 34.2285 52.3191 34.3261 52.7765 34.5156C53.2341 34.7052 53.6499 34.983 54 35.3333C54.3503 35.6834 54.6281 36.0992 54.8177 36.5568C55.0072 37.0142 55.1048 37.5046 55.1048 38C55.1048 38.4952 55.0072 38.9857 54.8177 39.4432C54.6281 39.9008 54.3503 40.3165 54 40.6666L46 48.6666"
+                stroke="#1A0516"
+                stroke-width="2"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M14.0002 62V56.6667L4.50283 44.8C3.74572 43.854 3.33331 42.6784 3.3335 41.4667V26C3.3335 24.9392 3.75492 23.9217 4.50507 23.1716C5.25522 22.4215 6.27263 22 7.3335 22C8.39436 22 9.41178 22.4215 10.1619 23.1716C10.9121 23.9217 11.3335 24.9392 11.3335 26V35.3333"
+                stroke="#1A0516"
+                stroke-width="2"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M27.3333 62V48.2093C27.3333 47.5088 27.1953 46.815 26.9272 46.1678C26.6591 45.5206 26.2661 44.9326 25.7707 44.4373L16.6667 35.3333C16.3165 34.983 15.9008 34.7052 15.4432 34.5156C14.9857 34.3261 14.4952 34.2285 14 34.2285C13.5047 34.2285 13.0143 34.3261 12.5567 34.5156C12.0992 34.7052 11.6835 34.983 11.3333 35.3333C10.9831 35.6834 10.7052 36.0992 10.5156 36.5568C10.3261 37.0142 10.2285 37.5046 10.2285 38C10.2285 38.4952 10.3261 38.9857 10.5156 39.4432C10.7052 39.9008 10.9831 40.3165 11.3333 40.6666L19.3333 48.6666"
+                stroke="#1A0516"
+                stroke-width="2"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M18 18H47.3333"
+                stroke="#FD2E35"
+                stroke-width="2"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M32.6667 32.6666C40.7668 32.6666 47.3333 26.1001 47.3333 17.9999C47.3333 9.89975 40.7668 3.33325 32.6667 3.33325C24.5665 3.33325 18 9.89975 18 17.9999C18 26.1001 24.5665 32.6666 32.6667 32.6666Z"
+                stroke="#FD2E35"
+                stroke-width="2"
+                stroke-miterlimit="10"
+                stroke-linecap="square"
+              />
+              <path
+                d="M32.6667 32.6666C36.138 32.6666 38.952 26.1001 38.952 17.9999C38.952 9.89975 36.138 3.33325 32.6667 3.33325C29.1955 3.33325 26.3813 9.89975 26.3813 17.9999C26.3813 26.1001 29.1955 32.6666 32.6667 32.6666Z"
+                stroke="#FD2E35"
+                stroke-width="2"
+                stroke-miterlimit="10"
+                stroke-linecap="square"
+              />
+            </svg>
+            <section
+              class="grid gap-2 border-t-[1px] border-[#1A05161A] py-4 lg:gap-4"
+            >
+              <h3
+                class="text-xl font-semibold lg:text-[16px] lg:leading-[24px]"
+              >
+                Strategic Collaboration
+              </h3>
+              <p class="text-xs font-medium lg:leading-[22px]">
+                We believe in the strength of collaboration. Life9 Systems
+                becomes an extension of your team, working closely to understand
+                your goals and challenges. Our collaborative approach ensures
+                that every solution is tailored to meet your unique needs.
+              </p>
+            </section>
+          </section>
+          <!-- 2 -->
+          <section class="grid gap-4 lg:auto-rows-min lg:gap-6">
+            <svg
+              class="ml-2 w-14 lg:w-16"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M53.0923 17.23H10.1881C7.52739 17.23 5.3335 19.3972 5.3335 22.0512V47.0109C5.3335 49.6649 7.52739 51.8321 10.1881 51.8321H35.8079L30.9867 58.1137C30.5866 58.6338 30.6866 59.374 31.2067 59.7741C31.4202 59.9408 31.6735 60.0208 31.927 60.0208C32.2803 60.0208 32.6338 59.8608 32.8671 59.5608L39.3822 51.0852C39.7088 50.6652 39.7088 50.0784 39.3822 49.6516L32.5871 40.6493C32.1936 40.1292 31.4535 40.0224 30.9334 40.4158C30.4132 40.8093 30.3064 41.5494 30.6999 42.0696L36.268 49.4448H10.1881C8.80104 49.4448 7.72076 48.3778 7.72076 47.0176V22.0512C7.72076 20.6909 8.79438 19.624 10.1881 19.624H53.0856C54.4726 19.624 55.5528 20.6909 55.5528 22.0512V47.0109C55.5528 48.3712 54.4726 49.4381 53.0856 49.4381H44.4167V51.8321H53.0856C55.7463 51.8321 57.9402 49.6649 57.9402 47.0109V22.0512C57.9402 19.3972 55.7463 17.23 53.0856 17.23H53.0923Z"
+                fill="#FD2E35"
+              />
+              <path
+                d="M17.7366 4C15.8027 4 14.189 5.5804 14.189 7.51423C14.189 7.83431 14.309 8.14105 14.5358 8.36777C14.7624 8.59449 15.0692 8.7212 15.3892 8.7212C15.7094 8.7212 16.016 8.59449 16.2428 8.36777C16.4695 8.14105 16.5896 7.83431 16.5896 7.51423C16.5896 6.87407 17.0898 6.39395 17.7499 6.39395H45.5503C46.2104 6.39395 46.7106 6.88073 46.7106 7.51423C46.7106 7.83431 46.8306 8.14105 47.0572 8.36777C47.284 8.59449 47.5907 8.7212 47.9108 8.7212C48.231 8.7212 48.5376 8.59449 48.7644 8.36777C48.9911 8.14105 49.1111 7.83431 49.1111 7.51423C49.1111 5.5804 47.4907 4 45.5636 4H17.7366Z"
+                fill="#1A0516"
+              />
+              <path
+                d="M13.9623 10.5017C11.6684 10.5017 9.76123 12.3755 9.76123 14.6694C9.76123 14.9895 9.88126 15.2962 10.108 15.523C10.3347 15.7497 10.6415 15.8763 10.9615 15.8763C11.2816 15.8763 11.5884 15.7497 11.8151 15.523C12.0418 15.2962 12.1618 14.9895 12.1618 14.6694C12.1618 13.6691 12.9487 12.8957 13.9756 12.8957H49.3246C50.3515 12.8957 51.1384 13.6691 51.1384 14.6694C51.1384 14.9895 51.2584 15.2962 51.4851 15.523C51.7119 15.7497 52.0186 15.8763 52.3387 15.8763C52.6588 15.8763 52.9655 15.7497 53.1923 15.523C53.419 15.2962 53.539 14.9895 53.539 14.6694C53.539 12.3755 51.6319 10.5017 49.3379 10.5017H13.9623Z"
+                fill="#1A0516"
+              />
+            </svg>
+
+            <section
+              class="grid gap-2 border-t-[1px] border-[#1A05161A] py-4 lg:gap-4"
+            >
+              <h3
+                class="text-xl font-semibold lg:text-[16px] lg:leading-[24px]"
+              >
+                Future-Proof Innovation
+              </h3>
+              <p class="text-xs font-medium lg:leading-[22px]">
+                The world is ever-evolving, and so are we. Life9 Systems is
+                committed to future-proofing your projects, incorporating the
+                latest technological advancements to keep you ahead in the
+                rapidly changing landscape.
+              </p>
+            </section>
+          </section>
+          <!-- 3 -->
+          <section class="grid gap-4 lg:auto-rows-min lg:gap-6">
+            <svg
+              class="ml-2 w-14 lg:w-16"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M41.9499 6.79366C41.555 6.27669 40.8119 6.17064 40.2899 6.56169L31.9765 12.7788L24.185 6.84669C23.6629 6.44901 22.9199 6.54844 22.5183 7.06542C22.1167 7.5824 22.2171 8.3181 22.7393 8.7158L31.0326 15.0257V40.338C31.0326 40.8682 31.4677 41.3057 32.0099 41.3057C32.5521 41.3057 32.9871 40.8749 32.9871 40.338V14.966L41.729 8.43741C42.2511 8.04636 42.3582 7.31065 41.9633 6.79366H41.9499Z"
+                fill="#FD2E35"
+              />
+              <path
+                d="M22.6786 2.38616L31.1862 8.86172C31.4005 9.0208 31.6549 9.10696 31.9091 9.10696C32.1635 9.10696 32.4111 9.02743 32.6254 8.86835L41.6618 2.11441C42.1839 1.72336 42.291 0.987657 41.8961 0.470673C41.5011 -0.0463106 40.7582 -0.152359 40.2361 0.238693L31.9226 6.45576L24.1245 0.523697C23.6023 0.126018 22.8594 0.225437 22.4578 0.742421C22.0562 1.25941 22.1566 1.99511 22.6786 2.39279V2.38616Z"
+                fill="#FD2E35"
+              />
+              <path
+                d="M25.6577 40.2319C25.6577 43.6983 28.5025 46.5152 32.0032 46.5152C35.504 46.5152 38.3488 43.6983 38.3488 40.2319C38.3488 38.038 37.2041 36.1026 35.4772 34.9824V37.6735C36.0194 38.3892 36.3406 39.2708 36.3406 40.2319C36.3406 42.598 34.3929 44.5268 32.0032 44.5268C29.6136 44.5268 27.6657 42.598 27.6657 40.2319C27.6657 39.2974 27.9737 38.4423 28.4824 37.7331V35.009C26.7822 36.1358 25.6577 38.0579 25.6577 40.2319Z"
+                fill="#1A0516"
+              />
+              <path
+                d="M16.8892 40.2319C16.8892 48.4838 23.6698 55.1979 32.0034 55.1979C40.3369 55.1979 47.1176 48.4838 47.1176 40.2319C47.1176 33.1664 42.1442 27.2278 35.4773 25.6702V27.7315C41.0197 29.2427 45.1094 34.2667 45.1094 40.2319C45.1094 47.3835 39.2325 53.2095 32.0034 53.2095C24.7742 53.2095 18.8973 47.3902 18.8973 40.2319C18.8973 34.2866 22.9602 29.2758 28.4825 27.7447V25.6834C21.8425 27.2608 16.8892 33.1796 16.8892 40.2319Z"
+                fill="#1A0516"
+              />
+              <path
+                d="M35.4707 16.7224V18.7308C45.9528 20.381 53.9919 29.3952 53.9919 40.232C53.9919 52.2418 44.1255 62.0116 31.9967 62.0116C19.8677 62.0116 10.0081 52.2418 10.0081 40.232C10.0081 29.4084 18.0204 20.4076 28.4825 18.7373V16.7224C16.9092 18.4192 8 28.3148 8 40.232C8 53.3356 18.7633 64 32.0033 64C45.2433 64 56.0067 53.3421 56.0067 40.232C56.0067 28.2949 47.0707 18.3926 35.4773 16.7158L35.4707 16.7224Z"
+                fill="#1A0516"
+              />
+            </svg>
+
+            <section
+              class="grid gap-2 border-t-[1px] border-[#1A05161A] py-4 lg:gap-4"
+            >
+              <h3
+                class="text-xl font-semibold lg:text-[16px] lg:leading-[24px]"
+              >
+                Quality Craftsmanship
+              </h3>
+              <p class="text-xs font-medium lg:leading-[22px]">
+                Our dedication to quality is unwavering. Life9 Systems adheres
+                to stringent quality assurance processes, ensuring that every
+                product and solution we deliver meets the highest standards of
+                performance, reliability, and security.
+              </p>
+            </section>
+          </section>
+          <!-- 4 -->
+          <section class="grid gap-4 lg:auto-rows-min lg:gap-6">
+            <svg
+              class="ml-2 w-14 lg:w-16"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M32 2.66675C47.464 2.66675 60 15.2027 60 30.6667C60 46.1307 47.464 58.6667 32 58.6667"
+                stroke="#FD2E35"
+                stroke-width="2"
+                stroke-miterlimit="10"
+                stroke-dasharray="2 6"
+              />
+              <path
+                d="M32 2.66675C16.536 2.66675 4 15.2027 4 30.6667C4 46.1307 16.536 58.6667 32 58.6667H34.6667"
+                stroke="#1A0516"
+                stroke-width="2"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M32 54.6667L34.6667 58.6667L32 62.6667"
+                stroke="#1A0516"
+                stroke-width="2"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M42.6667 40L32 32V16"
+                stroke="#1A0516"
+                stroke-width="2"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+
+            <section
+              class="grid gap-2 border-t-[1px] border-[#1A05161A] py-4 lg:gap-4"
+            >
+              <h3
+                class="text-xl font-semibold lg:text-[16px] lg:leading-[24px]"
+              >
+                Strategic Collaboration
+              </h3>
+              <p class="text-xs font-medium lg:leading-[22px]">
+                We believe in the strength of collaboration. Life9 Systems
+                becomes an extension of your team, working closely to understand
+                your goals and challenges. Our collaborative approach ensures
+                that every solution is tailored to meet your unique needs.
+              </p>
+            </section>
+          </section>
+        </section>
+      </section>
+      <!-- ! products -->
+      <section class="padding bg-slate pb-12 pt-6 lg:pb-[120px] lg:pt-[80px]">
+        <div
+          class="border-b-[1px] border-[#1A05161A] py-2 text-xs font-medium lg:font-semibold lg:leading-[1.83] lg:tracking-[2px]"
+        >
+          OUR PRODUCTS
+        </div>
+        <!-- ? container of h1 and live demo and p -->
+        <section class="grid gap-3 lg:grid-flow-col lg:gap-6">
+          <h2 class="subHeading mt-3 lg:mt-10">
+            <div class="grid grid-flow-col items-center justify-start text-red">
+              LifeLabz
+
+              <svg
+                class="w-6 md:w-7 xl:mx-2 xl:w-14"
+                viewBox="0 0 72 42"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M51.6364 0.363525L72 20.7272L51.6364 41.0908L48.1364 37.6363L62.5455 23.2272H0.5V18.2272H62.5455L48.1364 3.86353L51.6364 0.363525Z"
+                  fill="#FD2E35"
+                />
+              </svg>
+              The Dispenser
+            </div>
+            A smart sanitizer and soap dispenser to keep you extra-safe
+          </h2>
+          <section class="grid gap-2 md:gap-4">
+            <p
+              class="lg:border-l-[1px] lg:border-[#1A05161A] lg:p-6 lg:text-[16px] lg:leading-[24px]"
+            >
+              When it comes to health and safety, nothing is worth leaving to
+              chance! Our product makes sanitizing a smart, safe, contactless
+              and intuitive experience. In turn, this ensures that your
+              sanitization protocol is always successful. The Dispenser is a
+              unique and innovative product which is designed and manufactured
+              in India.
+            </p>
+            <a
+              href="./contactus.html"
+             
+              class="group grid grid-flow-col items-center justify-between border-t-[1px] border-[#1A05161A] py-3 text-xs font-semibold uppercase lg:border-l lg:px-6 lg:py-[21px]"
+            >
+              Book a demo
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 rounded-full bg-red p-1 duration-300 group-hover:-mr-1 2xl:group-hover:-mr-2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#ffffff"
+                  d="M16.175 13H4v-2h12.175l-5.6-5.6L12 4l8 8l-8 8l-1.425-1.4z"
+                />
+              </svg>
+            </a>
+          </section>
+        </section>
+        <!-- ? image -->
+        <img
+          src="./images/products.webp"
+          class="mb-6 mt-8 w-full md:mb-8 md:mt-12 lg:mb-[64px] lg:mt-[120px] 2xl:mx-auto"
+          alt="lifelabz product image"
+        />
+        <!-- ? points -->
+        <ul class="">
+          <li
+            class="grid grid-flow-col justify-start gap-3 border-t-[1px] border-[#1A05161A] py-3 lg:gap-[32px] lg:py-[34px]"
+          >
+            <div class="my-auto text-xs text-red">○</div>
+            Powerful sensor enabled contact-free sanitization
+          </li>
+          <li
+            class="grid grid-flow-col justify-start gap-3 border-t-[1px] border-[#1A05161A] py-3 lg:gap-[32px] lg:py-[34px]"
+          >
+            <div class="my-auto text-xs text-red">○</div>
+            Mount it on the wall, place it on the table or on a stand
+          </li>
+          <li
+            class="grid grid-flow-col justify-start gap-3 border-t-[1px] border-[#1A05161A] py-3 lg:gap-[32px] lg:py-[34px]"
+          >
+            <div class="my-auto text-xs text-red">○</div>
+            Tested with all standard-grade sanitizing liquids
+          </li>
+          <li
+            class="grid grid-flow-col justify-start gap-3 border-t-[1px] border-[#1A05161A] py-3 lg:gap-[32px] lg:py-[34px]"
+          >
+            <div class="my-auto text-xs text-red">○</div>
+            Safety, the smart and sure way
+          </li>
+        </ul>
+      </section>
+      <!-- ! Join Us -->
+      <section
+        class="joinusImage padding grid h-[60vh] place-items-end bg-cover bg-center md:h-[640px]"
+      >
+        <section class="grid w-full gap-8 py-2 text-white lg:pb-[16px] lg:pt-0">
+          <!-- ? Large Texts -->
+          <section class="grid gap-1">
+            <!-- Page first H1 -->
+            <h1 class="heroHeading">
+              <div class="lg:text-right">
+                Join us in shaping the
+                <span class="sm:hidden">future of technology.</span>
+              </div>
+              <div class="hidden sm:block">future of technology.</div>
+            </h1>
+          </section>
+
+          <!-- ? Empowering and learn more section -->
+          <section
+            class="grid gap-3 text-xs font-semibold lg:flex lg:gap-6 lg:leading-[1.83] lg:tracking-[2px]"
+          >
+            <!-- first one -->
+            <h2
+              class="border-t-[1px] border-[#ffffff33] px-1 py-2 uppercase lg:w-full lg:px-4 lg:py-[21px]"
+            >
+              Empowering Innovation with ai-powered IoT Solutions & Product
+              Engineering. Your Partner for Cutting-Edge Technology.
+            </h2>
+            <!-- second one -->
+            <a
+              href="./contactus.html"
+              class="group grid grid-flow-col items-center justify-between gap-6 border-t-[1px] border-[#ffffff33] px-1 py-2 uppercase lg:w-[400px] lg:px-4 lg:py-[21px]"
+            >
+              Get In Touch
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 rounded-full bg-red fill-white p-1 duration-300 group-hover:-mr-1 2xl:group-hover:-mr-2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.175 13H4v-2h12.175l-5.6-5.6L12 4l8 8l-8 8l-1.425-1.4z"
+                />
+              </svg>
+            </a>
+          </section>
+        </section>
+      </section>
+    </main>
+    <!-- ! footer -->
+    <footer-component></footer-component>
+    <!-- ! script -->
+    <!-- sidebar -->
+    <script src="./javascript/sidebar.js"></script>
+    <!-- For Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const logo = document.getElementById("logo");
+      const header = document.getElementById("header");
+      header.classList.add("text-white");
+      logo.classList.add("fill-white");
+      ham1.classList.remove("bg-red");
+      ham2.classList.remove("bg-red");
+      ham3.classList.remove("bg-red");
+      ham1.classList.add("bg-white");
+      ham2.classList.add("bg-white");
+      ham3.classList.add("bg-white");
+      //------------------------- Header --------------------------
+      document.addEventListener("scroll", () => {
+        if (window.pageYOffset > 700) {
+          header.classList.remove("bg-[#ffffff05]");
+          header.classList.add("bg-white");
+          header.classList.remove("text-white");
+          header.classList.add("text-black");
+          logo.classList.remove("fill-white");
+          logo.classList.add("fill-black");
+          ham1.classList.remove("bg-white");
+          ham1.classList.add("bg-black");
+          ham2.classList.remove("bg-white");
+          ham2.classList.add("bg-black");
+          ham3.classList.remove("bg-white");
+          ham3.classList.add("bg-black");
+          header.style.transition = "background-color .5s ease, color .5s ease";
+        } else {
+          header.classList.remove("bg-white");
+          header.classList.add("bg-[#ffffff05]");
+          logo.classList.remove("fill-black");
+          logo.classList.add("fill-white");
+          header.classList.remove("text-black");
+          header.classList.add("text-white");
+          ham1.classList.add("bg-white");
+          ham1.classList.remove("bg-black");
+          ham2.classList.add("bg-white");
+          ham2.classList.remove("bg-black");
+          ham3.classList.add("bg-white");
+          ham3.classList.remove("bg-black");
+          header.style.transition = "background-color .5s ease, color .5s ease";
+        }
+      });
+
+      // ----------------------------- cursor change to drag ---------------------
+      const cursor = document.getElementById("cursor");
+      const postIds = ["post1", "post2", "post3", "post4", "post5", "post6"];
+      postIds.forEach((id) => {
+        const post = document.getElementById(id);
+        post.addEventListener("mousemove", (e) => {
+          cursor.classList.remove("lg:hidden");
+          cursor.classList.add("lg:grid");
+          cursor.setAttribute(
+            "style",
+            "top:" + (e.pageY - 60) + "px; left:" + (e.pageX - 60) + "px;",
+          );
+        });
+        post.addEventListener("mouseout", () => {
+          cursor.classList.remove("lg:grid");
+          cursor.classList.add("lg:hidden");
+        });
+      });
+      // --------------------------------- carousel -----------------------
+      var mySwiper = new Swiper(".swiper-container", {
+        // Set 1 slide per view on mobile and 3 slides per view on larger screens
+        slidesPerView: 1,
+        breakpoints: {
+          // When window width is >= 640px (sm)
+          640: {
+            slidesPerView: 3,
+          },
+        },
+      });
+      //------------------------------- dropdown --------------------
+      
+      // for company dropdown
+const companyDropdownActivator = document.getElementById(
+  "companyDropdownActivator",
+);
+const companyDropdownActivatorSvg = document.getElementById(
+  "companyDropdownActivatorSvg",
+);
+const companyDropdown = document.getElementById("companyDropdown");
+const dropdownAbout = document.getElementById("dropdownAbout");
+const dropdownCareers = document.getElementById("dropdownCareers");
+const dropdownContactus = document.getElementById("dropdownContactus");
+const dropdownImage = document.getElementById("dropdownImage");
+// for products
+const productsDropdownActivator = document.getElementById(
+  "productsDropdownActivator",
+);
+const productsDropdownActivatorSvg = document.getElementById(
+  "productsDropdownActivatorSvg",
+);
+const productsDropdown = document.getElementById("productsDropdown");
+// for solutions
+const solutionsDropdownActivator = document.getElementById(
+  "solutionsDropdownActivator",
+);
+const solutionsDropdownActivatorSvg = document.getElementById(
+  "solutionsDropdownActivatorSvg",
+);
+const solutionsDropdown = document.getElementById("solutionsDropdown");
+// ---- Company ----
+let clickCounterForCompany = 0;
+companyDropdownActivator.addEventListener("click", () => {
+  clickCounterForCompany++;
+  companyDropdown.classList.toggle("-translate-y-[200%]");
+  companyDropdown.classList.toggle("translate-y-0");
+  companyDropdownActivator.classList.toggle("text-red");
+  companyDropdownActivatorSvg.classList.toggle("rotate-90");
+  companyDropdownActivatorSvg.classList.toggle("-rotate-90");
+  // deactivating products dropdown
+  productsDropdown.classList.add("-translate-y-[200%]");
+  productsDropdown.classList.remove("translate-y-0");
+  productsDropdownActivator.classList.remove("text-red");
+  productsDropdownActivatorSvg.classList.add("rotate-90");
+  productsDropdownActivatorSvg.classList.remove("-rotate-90");
+    // deactivating solutions dropdown
+    solutionsDropdown.classList.add("-translate-y-[200%]");
+    solutionsDropdown.classList.remove("translate-y-0");
+    solutionsDropdownActivator.classList.remove("text-red");
+    solutionsDropdownActivatorSvg.classList.add("rotate-90");
+    solutionsDropdownActivatorSvg.classList.remove("-rotate-90");
+  dropdownImage.setAttribute("src", "./images/aboutLargeImage.webp");
+  if (clickCounterForCompany % 2 == 0) {
+    if (pageYOffset > 700) {
+      header.classList.remove("bg-[#ffffff05]");
+      header.classList.add("bg-white");
+      header.classList.remove("text-white");
+      header.classList.add("text-black");
+      logo.classList.remove("fill-white");
+      logo.classList.add("fill-black");
+      header.style.transition =
+        "background-color .5s ease, color .5s ease";
+    } else {
+      header.classList.add("bg-[#ffffff05]");
+      header.classList.remove("bg-white");
+      header.classList.add("text-white");
+      header.classList.remove("text-black");
+      logo.classList.add("fill-white");
+      logo.classList.remove("fill-black");
+      header.style.transition =
+        "background-color .5s ease, color .5s ease";
+    }
+  } else {
+    header.classList.remove("bg-[#ffffff05]");
+    header.classList.add("bg-white");
+    header.classList.remove("text-white");
+    header.classList.add("text-black");
+    logo.classList.remove("fill-white");
+    logo.classList.add("fill-black");
+    header.style.transition = "background-color .5s ease, color .5s ease";
+  }});
+
+dropdownAbout.addEventListener("mouseenter", () => {
+  dropdownImage.setAttribute("src", "./images/aboutLargeImage.webp");
+});
+dropdownCareers.addEventListener("mouseenter", () => {
+  dropdownImage.setAttribute("src", "./images/career.webp");
+});
+dropdownContactus.addEventListener("mouseenter", () => {
+  dropdownImage.setAttribute("src", "./images/contactUsHero.webp");
+});
+
+// for products
+
+let clickCounterForProducts = 0;
+
+productsDropdownActivator.addEventListener("click", () => {
+  clickCounterForProducts++;
+  productsDropdown.classList.toggle("-translate-y-[200%]");
+  productsDropdown.classList.toggle("translate-y-0");
+  productsDropdownActivator.classList.toggle("text-red");
+  productsDropdownActivatorSvg.classList.toggle("rotate-90");
+  productsDropdownActivatorSvg.classList.toggle("-rotate-90");
+// deactivating company dropdown
+companyDropdown.classList.add("-translate-y-[200%]");
+companyDropdown.classList.remove("translate-y-0");
+companyDropdownActivator.classList.remove("text-red");
+companyDropdownActivatorSvg.classList.add("rotate-90");
+companyDropdownActivatorSvg.classList.remove("-rotate-90");
+  // deactivating solutions dropdown
+  solutionsDropdown.classList.add("-translate-y-[200%]");
+  solutionsDropdown.classList.remove("translate-y-0");
+  solutionsDropdownActivator.classList.remove("text-red");
+  solutionsDropdownActivatorSvg.classList.add("rotate-90");
+  solutionsDropdownActivatorSvg.classList.remove("-rotate-90");
+  if (clickCounterForProducts % 2 == 0) {
+    if (pageYOffset > 700) {
+      header.classList.remove("bg-[#ffffff05]");
+      header.classList.add("bg-white");
+      header.classList.remove("text-white");
+      header.classList.add("text-black");
+      logo.classList.remove("fill-white");
+      logo.classList.add("fill-black");
+      header.style.transition =
+        "background-color .5s ease, color .5s ease";
+    } else {
+      header.classList.add("bg-[#ffffff05]");
+      header.classList.remove("bg-white");
+      header.classList.add("text-white");
+      header.classList.remove("text-black");
+      logo.classList.add("fill-white");
+      logo.classList.remove("fill-black");
+      header.style.transition =
+        "background-color .5s ease, color .5s ease";
+    }
+  } else {
+    header.classList.remove("bg-[#ffffff05]");
+    header.classList.add("bg-white");
+    header.classList.remove("text-white");
+    header.classList.add("text-black");
+    logo.classList.remove("fill-white");
+    logo.classList.add("fill-black");
+    header.style.transition = "background-color .5s ease, color .5s ease";
+  }
+});
+// for solutions
+
+let clickCounterForSolutions = 0;
+
+solutionsDropdownActivator.addEventListener("click", () => {
+  clickCounterForSolutions++;
+  solutionsDropdown.classList.toggle("-translate-y-[200%]");
+  solutionsDropdown.classList.toggle("translate-y-0");
+  solutionsDropdownActivator.classList.toggle("text-red");
+  solutionsDropdownActivatorSvg.classList.toggle("rotate-90");
+  solutionsDropdownActivatorSvg.classList.toggle("-rotate-90");
+// deactivating company dropdown
+companyDropdown.classList.add("-translate-y-[200%]");
+companyDropdown.classList.remove("translate-y-0");
+companyDropdownActivator.classList.remove("text-red");
+companyDropdownActivatorSvg.classList.add("rotate-90");
+companyDropdownActivatorSvg.classList.remove("-rotate-90");
+  // deactivating products dropdown
+  productsDropdown.classList.add("-translate-y-[200%]");
+  productsDropdown.classList.remove("translate-y-0");
+  productsDropdownActivator.classList.remove("text-red");
+  productsDropdownActivatorSvg.classList.add("rotate-90");
+  productsDropdownActivatorSvg.classList.remove("-rotate-90");
+  if (clickCounterForSolutions % 2 == 0) {
+    if (pageYOffset > 700) {
+      header.classList.remove("bg-[#ffffff05]");
+      header.classList.add("bg-white");
+      header.classList.remove("text-white");
+      header.classList.add("text-black");
+      logo.classList.remove("fill-white");
+      logo.classList.add("fill-black");
+      header.style.transition =
+        "background-color .5s ease, color .5s ease";
+    } else {
+      header.classList.add("bg-[#ffffff05]");
+      header.classList.remove("bg-white");
+      header.classList.add("text-white");
+      header.classList.remove("text-black");
+      logo.classList.add("fill-white");
+      logo.classList.remove("fill-black");
+      header.style.transition =
+        "background-color .5s ease, color .5s ease";
+    }
+  } else {
+    header.classList.remove("bg-[#ffffff05]");
+    header.classList.add("bg-white");
+    header.classList.remove("text-white");
+    header.classList.add("text-black");
+    logo.classList.remove("fill-white");
+    logo.classList.add("fill-black");
+    header.style.transition = "background-color .5s ease, color .5s ease";
+  }
+});
+
+    </script>
+  </body>
+</html>
